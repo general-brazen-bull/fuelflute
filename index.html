@@ -520,6 +520,29 @@
     line-height: 1.6;
   }
 
+  .cta-button {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 14px 32px;
+  background: var(--gold);
+  color: var(--dark);
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  border: 2px solid var(--gold);
+  transition: all 0.25s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-button:hover {
+  background: transparent;
+  color: var(--gold);
+}
+
   /* FOOTER */
   footer {
     background: var(--dark);
@@ -913,6 +936,7 @@
 
 <!-- CTA -->
 <section class="cta">
+    <a href="https://www.youtube.com/watch?v=-JZv0VEqZxQ" class="cta-button">Order Now</a>
   <h2>The Time Has Come</h2>
   <p>"For decades, people asked me to produce this. I had concerns. But with what's happening at the pump — I can't justify sitting on it anymore."</p>
   <span class="phone">1-800-FUELFLUTE</span>
